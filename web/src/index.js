@@ -4,7 +4,7 @@ import FatalErrorPage from 'src/pages/FatalErrorPage';
 
 import Routes from 'src/Routes';
 
-import './index.css';
+import './index.scss';
 
 ReactDOM.render(
   <FatalErrorBoundary page={FatalErrorPage}>
