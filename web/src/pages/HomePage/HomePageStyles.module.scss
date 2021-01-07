@@ -1,3 +1,7 @@
-.title {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import "../../styles/main.module.scss";
+
+.Main {
+  .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 }

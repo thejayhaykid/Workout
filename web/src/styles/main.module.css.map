@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,YAAY",
+    "sources": [
+        "main.module.scss",
+        "_variables.module.scss"
+    ],
+    "names": [],
+    "file": "main.module.css"
+}

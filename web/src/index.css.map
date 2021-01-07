@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,YAAY;AFEZ,AAAA,IAAI,CAAC;EACH,gBAAgB,EEDF,OAAO;EFErB,KAAK,EEHM,OAAO;CFInB",
+    "sources": [
+        "index.scss",
+        "styles/main.module.scss",
+        "styles/_variables.module.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

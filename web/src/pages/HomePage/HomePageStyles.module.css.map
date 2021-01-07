@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,YAAY;AFEZ,AACE,KADG,CACH,MAAM,CAAC;EACL,WAAW,EAAE,+CAA+C;CAC7D",
+    "sources": [
+        "HomePageStyles.module.scss",
+        "../../styles/main.module.scss",
+        "../../styles/_variables.module.scss"
+    ],
+    "names": [],
+    "file": "HomePageStyles.module.css"
+}
