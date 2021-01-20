@@ -1,0 +1,16 @@
+@import "../../sass/index.module.scss";
+
+.Nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    background-color: $stroke-color;
+    padding: 1em;
+
+    .item {
+        padding: none;
+    }
+}
