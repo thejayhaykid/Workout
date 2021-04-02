@@ -1,0 +1,36 @@
+{
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "username": "jake",
+        "name": "Jake"
+      }
+    ],
+    "workouts": [
+      {
+        "id": 1,
+        "title": "Arms Round 1",
+        "description": "Round 1 and 5 of 5 for the bigger arms workout plan",
+        "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+        "focus": "arms"
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1,
+        "title": "Push-up",
+        "description": "",
+        "category": "bodyweight, chest, arms, core",
+        "focus": "chest"
+      },
+      {
+        "id": 2,
+        "title": "Bicep Curl",
+        "description": "",
+        "category": "dumbbell, bicep, arms",
+        "focus": "bicep"
+      }
+    ]
+  }
+}
