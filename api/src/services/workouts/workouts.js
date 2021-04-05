@@ -1,3 +1,4 @@
+import { requireAuth } from 'src/lib/auth';
 import { db } from 'src/lib/db';
 
 export const workouts = () => {
@@ -11,12 +12,14 @@ export const workout = ({ id }) => {
 };
 
 export const createWorkout = ({ input }) => {
+  requireAuth();
   return db.workout.create({
     data: input,
   });
 };
 
 export const updateWorkout = ({ id, input }) => {
+  requireAuth();
   return db.workout.update({
     data: input,
     where: { id },
@@ -24,6 +27,7 @@ export const updateWorkout = ({ id, input }) => {
 };
 
 export const deleteWorkout = ({ id }) => {
+  requireAuth();
   return db.workout.delete({
     where: { id },
   });

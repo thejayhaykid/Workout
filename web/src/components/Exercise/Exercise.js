@@ -1,6 +1,7 @@
 import { useMutation } from '@redwoodjs/web';
 import { toast } from '@redwoodjs/web/toast';
 import { Link, routes, navigate } from '@redwoodjs/router';
+import { useAuth } from '@redwoodjs/auth';
 
 import { QUERY } from 'src/components/ExercisesCell';
 
@@ -39,6 +40,7 @@ const Exercise = ({ exercise }) => {
       navigate(routes.exercises());
     },
   });
+  const { isAuthenticated } = useAuth();
 
   const onDeleteClick = (id) => {
     if (confirm('Are you sure you want to delete exercise ' + id + '?')) {
@@ -83,21 +85,22 @@ const Exercise = ({ exercise }) => {
           </tbody>
         </table>
       </div>
-      <nav className="rw-button-group">
-        <Link
-          to={routes.editExercise({ id: exercise.id })}
-          className="rw-button rw-button-blue"
-        >
-          Edit
-        </Link>
-        <a
-          href="#"
-          className="rw-button rw-button-red"
-          onClick={() => onDeleteClick(exercise.id)}
-        >
-          Delete
-        </a>
-      </nav>
+      {isAuthenticated ? (
+        <nav className="rw-button-group">
+          <Link
+            to={routes.editExercise({ id: exercise.id })}
+            className="rw-button rw-button-blue"
+          >
+            Edit
+          </Link>
+          <button
+            className="rw-button rw-button-red"
+            onClick={() => onDeleteClick(exercise.id)}
+          >
+            Delete
+          </button>
+        </nav>
+      ) : null}
     </>
   );
 };

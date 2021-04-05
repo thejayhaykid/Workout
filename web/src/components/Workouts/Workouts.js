@@ -1,6 +1,7 @@
 import { useMutation } from '@redwoodjs/web';
 import { toast } from '@redwoodjs/web/toast';
 import { Link, routes } from '@redwoodjs/router';
+import { useAuth } from '@redwoodjs/auth';
 
 import { QUERY } from 'src/components/WorkoutsCell';
 
@@ -49,6 +50,7 @@ const WorkoutsList = ({ workouts }) => {
     refetchQueries: [{ query: QUERY }],
     awaitRefetchQueries: true,
   });
+  const { isAuthenticated } = useAuth();
 
   const onDeleteClick = (id) => {
     if (confirm('Are you sure you want to delete workout ' + id + '?')) {
@@ -88,21 +90,25 @@ const WorkoutsList = ({ workouts }) => {
                   >
                     Show
                   </Link>
-                  <Link
-                    to={routes.editWorkout({ id: workout.id })}
-                    title={'Edit workout ' + workout.id}
-                    className="rw-button rw-button-small rw-button-blue"
-                  >
-                    Edit
-                  </Link>
-                  <a
-                    href="#"
-                    title={'Delete workout ' + workout.id}
-                    className="rw-button rw-button-small rw-button-red"
-                    onClick={() => onDeleteClick(workout.id)}
-                  >
-                    Delete
-                  </a>
+                  {isAuthenticated ? (
+                    <>
+                      <Link
+                        to={routes.editWorkout({ id: workout.id })}
+                        title={'Edit workout ' + workout.id}
+                        className="rw-button rw-button-small rw-button-blue"
+                      >
+                        Edit
+                      </Link>
+                      <button
+                        href="#"
+                        title={'Delete workout ' + workout.id}
+                        className="rw-button rw-button-small rw-button-red"
+                        onClick={() => onDeleteClick(workout.id)}
+                      >
+                        Delete
+                      </button>
+                    </>
+                  ) : null}
                 </nav>
               </td>
             </tr>
