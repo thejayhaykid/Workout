@@ -12,7 +12,8 @@
       "title": "Arms Round 1",
       "description": "Round 1 and 5 of 5 for the bigger arms workout plan",
       "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
-      "focus": "arms"
+      "focus": "arms",
+      "exercises": [1,2,3,4,5]
     }
   ],
   "exercises": [
@@ -21,14 +22,40 @@
       "title": "Push-up",
       "description": "",
       "category": "bodyweight, chest, arms, core",
-      "focus": "chest"
+      "focus": "chest",
+      "workouts": [1]
     },
     {
       "id": 2,
       "title": "Bicep Curl",
       "description": "",
       "category": "dumbbell, bicep, arms",
-      "focus": "bicep"
+      "focus": "bicep",
+      "workouts": [1]
+    },
+    {
+      "id": 3,
+      "title": "Dumbbell Skullcrusher",
+      "description": "",
+      "category": "dumbbell, triceps, arms",
+      "focus": "triceps",
+      "workouts": [1]
+    },
+    {
+      "id": 4,
+      "title": "Hammer Curl",
+      "description": "",
+      "category": "dumbbell, bicep, arms",
+      "focus": "bicep",
+      "workouts": [1]
+    },
+    {
+      "id": 5,
+      "title": "Upright Dumbbell Straight-arm Flys",
+      "description": "",
+      "category": "dumbbell, shoulders, arms",
+      "focus": "deltoid",
+      "workouts": [1]
     }
   ]
 }
