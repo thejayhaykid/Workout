@@ -17,21 +17,12 @@ model User {
 }
 
 model Workout {
-  id          Int        @id @default(autoincrement())
+  id          Int      @id @default(autoincrement())
   title       String
   description String?
   category    String?
   focus       String?
-  dateAdded   DateTime   @default(now())
-  exercises   Exercise[]
-}
-
-model Exercise {
-  id          Int       @id @default(autoincrement())
-  title       String
-  description String?
-  category    String?
-  focus       String?
-  dateAdded   DateTime  @default(now())
-  Workouts    Workout[]
+  dateAdded   DateTime @default(now())
+  exercises   String?
+  warmUp      String?
 }

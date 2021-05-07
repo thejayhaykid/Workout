@@ -1,61 +1,135 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "jake",
-      "name": "Jake"
-    }
-  ],
   "workouts": [
     {
-      "id": 1,
       "title": "Arms Round 1",
-      "description": "Round 1 and 5 of 5 for the bigger arms workout plan",
+      "description": "Round 1 of 5 for the bigger arms workout plan",
       "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
       "focus": "arms",
-      "exercises": [1,2,3,4,5]
-    }
-  ],
-  "exercises": [
-    {
-      "id": 1,
-      "title": "Push-up",
-      "description": "",
-      "category": "bodyweight, chest, arms, core",
-      "focus": "chest",
-      "workouts": [1]
+      "exercises": "Alternating Bicep Curl,Sets:2;Dumbbell Skullcrusher,Sets:2;Alternating Hammer Curl,Sets:2;Upright Dumbbell Straight-arm Flys,Sets:2;Push-up,Sets:2"
     },
     {
-      "id": 2,
-      "title": "Bicep Curl",
-      "description": "",
-      "category": "dumbbell, bicep, arms",
-      "focus": "bicep",
-      "workouts": [1]
+      "title": "Arms Round 2",
+      "description": "Round 2 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Hammer Curl,Sets:2;Bent over dumbbell Kick backs,Sets:2;Bent over Concentration Curl,Sets:2;Upright Dumbbell Straight-arm Front Raise,Sets:2;Incline Push-up,Sets:2"
     },
     {
-      "id": 3,
-      "title": "Dumbbell Skullcrusher",
-      "description": "",
-      "category": "dumbbell, triceps, arms",
-      "focus": "triceps",
-      "workouts": [1]
+      "title": "Arms Round 3",
+      "description": "Round 3 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Bicep Curl,Sets:2;Bench Dips,Sets:2;Sitting Hammer Curl,Sets:2;Arnold Press,Sets:2;Decline Push-up,Sets:2"
     },
     {
-      "id": 4,
-      "title": "Hammer Curl",
-      "description": "",
-      "category": "dumbbell, bicep, arms",
-      "focus": "bicep",
-      "workouts": [1]
+      "title": "Arms Round 4",
+      "description": "Round 4 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Bicep Curl,Sets:2;Overhead Tricep Extension,Sets:2;Hammer Curls,Sets:2;Standing Cross Shoulder Single Arm Fly,Sets:2;Dumbbell Fly,Sets:2"
     },
     {
-      "id": 5,
-      "title": "Upright Dumbbell Straight-arm Flys",
+      "title": "Arms Round 5",
+      "description": "Round 5 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Alternating Bicep Curl,Sets:2;Dumbbell Skullcrusher,Sets:2;Alternating Hammer Curl,Sets:2;Upright Dumbbell Straight-arm Flys,Sets:2;Push-up,Sets:2"
+    },
+    {
+      "title": "Arms Classic Round 1",
+      "description": "Round 1 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Alternating Bicep Curl,Sets:3;Dumbbell Skullcrusher,Sets:3;Alternating Hammer Curl,Sets:3"
+    },
+    {
+      "title": "Arms Classic Round 2",
+      "description": "Round 2 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Hammer Curl,Sets:3;Bent over dumbbell Kick backs,Sets:3;Bent over Concentration Curl,Sets:3"
+    },
+    {
+      "title": "Arms Classic Round 3",
+      "description": "Round 3 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Bicep Curl,Sets:3;Bench Dips,Sets:3;Sitting Hammer Curl,Sets:3"
+    },
+    {
+      "title": "Arms Classic Round 4",
+      "description": "Round 4 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Bicep Curl,Sets:3;Overhead Tricep Extension,Sets:3;Hammer Curls,Sets:3"
+    },
+    {
+      "title": "Arms Classic Round 5",
+      "description": "Round 5 of 5 for the bigger arms workout plan",
+      "category": "bodyweight, dumbbell, chest, arms, core, shoulders, biceps, triceps",
+      "focus": "arms",
+      "exercises": "Alternating Bicep Curl,Sets:3;Dumbbell Skullcrusher,Sets:3;Alternating Hammer Curl,Sets:3"
+    },
+    {
+      "title": "Quick 15 Minute Kettlebell Jumprope Workout",
+      "description": "This quick strength interval session mixes kettlebell moves and jump roping to push you to the edge",
+      "category": "bodyweight, kettlebell, jump rope",
+      "focus": "AMRAP in 15 minutes, hopefully 5 rounds",
+      "exercises": "Kettlebell Back Squat,Reps:12-15;Single Kettlebell Row,Reps:12-15;Double Under or Single Jump Rope Skips,Reps:35-50",
+      "warmUp": "Bodyweight Squats,Reps:10;Torso Rotations,Reps:20;Kettlebell Rows,Reps:5"
+    },
+    {
+      "title": "Quick 16 Minute Kettlebell Jumprope Workout",
+      "description": "Grab a bell and a rope to break out of the same old plane in this 16-minute workout",
+      "category": "bodyweight, kettlebell, jump rope",
+      "focus": "AMRAP in 16 minutes",
+      "exercises": "Kettlebell Reverse Lunge with Twist(R),Reps:12;Kettlebell Reverse Lunge with Twist(L),Reps:12;Kettlebell Crossovers,Reps:20;Jump Rope,Reps:Max for 30 seconds",
+      "warmUp": "Hip Openers to Squat,Reps:10;Reverse Stepping Lunge,Reps:5;Torso Twist,Reps:10"
+    },
+    {
+      "title": "2-Move Workout for Strength and Fitness",
+      "description": "Mat Fraser, CrossFit's Fittest Man in History, Just Shared a 2-Move Workout for Strength and Fitness. Once secretive about his training plans and workouts, CrossFit's GOAT released this five-round workout that builds strength and fitness in a short time frame",
+      "category": "bodyweight, assult bike, barbell, snatch",
+      "focus": "1:30 work, 0:45 rest",
+      "exercises": "Assault Bike Calories (M): 25-23-21-19-17 (Scale:20-18-16-14-12);Assault Bike Calories (F): 20-18-16-14-12 (Scale:16-14-12-10-8);Remaining time: Max barbell snatches at 75 pounds (M) / 55 pounds (F)."
+    },
+    {
+      "title": "The Wonder Woman Arm Day Split",
+      "description": "Gal Gadot's Trainer Breaks Down Her Wonder Woman 1984 Arm Workout. Trainer and nutritionist Magnus Lygdback shares the workout that helped her get ripped for the role.",
+      "category": "bodyweight, assult bike, arms",
+      "exercises": "Assault Bike High-Intensity Intervals,6 rounds of 20 seconds on, 20 seconds off;Alternating Biceps Curls,3 rounds of 8 reps per side;Skull Crushers,3 rounds of 12 reps;Superset 1: Biceps Cable Curl/Triceps Pushdown,3 rounds of 12 reps per exercise;Superset 2: Isolated Biceps Curl/Lateral Raise,3 rounds of 10 reps (biceps curl)/12 reps (lateral raise);Hollow Hold,4 sets of 45 seconds",
+      "warmUp": "5 minutes on Assault Bike (If you don't have an Assault Bike, you can use any other cardio machine you have)"
+    },
+    {
+      "title": "Home Version of CrossFit's '21.2' Workout",
+      "description": "Our Home Version of CrossFit's '21.2' Workout Will Blast Calories. Set the tone for your training with our at-home adaptation of the most recent CrossFit Open workout. Go hard, go fast and you'll be burning fat for hours afterwards",
+      "category": "bodyweight, snatch",
+      "focus": "You’re going to be alternating between two movements, back and forth until you’ve completed all reps. The first movement, the alternating dumbbell snatch, will climb by 10 in reps each round, finishing with a forearm crushing 50-rep set. Whilst the burpees will remain at a more conservative, but still considerably daunting 15 reps per round.",
+      "exercises": "Alternating One Arm Dumbbell Snatch,Reps:10x20x30x40x50;Burpee-over-Dumbbell,Reps:15,Description:After your final snatch place your dumbbell down on the floor beside you and drop into a press-up position. Lower your chest to the ground, hop your legs back in and jump laterally over the dumbbells. Repeat on the other side and keep gong back and forth for 15 reps in total."
+    },
+    {
+      "title": "Beginner Jump Rope Workout",
       "description": "",
-      "category": "dumbbell, shoulders, arms",
-      "focus": "deltoid",
-      "workouts": [1]
+      "category": "jump rope",
+      "exercises": "Jump Rope,Sets:3-4,Reps:AMRAP in 30 seconds"
+    },
+    {
+      "title": "Intermediate Jump Rope Workout",
+      "description": "Here is a fun and relatively easy-to-remember-and-master workout that you can try when you are confident your calves, shins, and ankles can handle it. Do each of these variations for one minute separated by one minute of rest.",
+      "category": "jump rope",
+      "exercises": "Basic;Alternating Foot;Combo;High Knee;Go Long,Description:This is the big finish. Do any combination of the above that allows you to do a continuous jump interval of five minutes. If you have to take a break, make it brief and get back at it. Once you hit five minutes, you are done. Go stretch and foam roll (especially your calves and shins) and hit the showers!"
+    },
+    {
+      "title": "Advanced Jump Rope Workout",
+      "category": "jump rope",
+      "focus": "After a good full body warmup, do these moves for 20 reps (or more) each before moving on to the next one.",
+      "exercises": "Basic Jumps,Reps:20;Ski Jumps,Reps:20;Heel Taps,Reps:20;Scissor Jumps,Reps:20"
+    },
+    {
+      "title": "Jump Rope and Body Weight Workout",
+      "category": "jump rope, bodyweight",
+      "focus": "One to two minutes of each of the following",
+      "exercises": "Two Foot Jump;Push Ups;High Knee Jump (alternating);Russian Twists;Alternating foot jump;Sumo Squats;Basic Jump;Dips;Two Foot Jump;Bicycle Crunches;High Knee jump (alternating);Walking lunges;Basic Jump"
     }
   ]
 }

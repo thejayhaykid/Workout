@@ -17,12 +17,10 @@ const Routes = () => {
       <Route path="/workouts" page={WorkoutsPage} name="workouts" />
       <Route path="/exercises/{id:Int}" page={ExercisePage} name="exercise" />
       <Route path="/workouts/{id:Int}" page={WorkoutPage} name="workout" />
-      <Private unauthenticated="home">
-        <Route path="/exercises/new" page={NewExercisePage} name="newExercise" />
-        <Route path="/exercises/{id:Int}/edit" page={EditExercisePage} name="editExercise" />
-        <Route path="/workouts/new" page={NewWorkoutPage} name="newWorkout" />
-        <Route path="/workouts/{id:Int}/edit" page={EditWorkoutPage} name="editWorkout" />
-      </Private>
+      <Route path="/exercises/new" page={NewExercisePage} name="newExercise" />
+      <Route path="/exercises/{id:Int}/edit" page={EditExercisePage} name="editExercise" />
+      <Route path="/workouts/new" page={NewWorkoutPage} name="newWorkout" />
+      <Route path="/workouts/{id:Int}/edit" page={EditWorkoutPage} name="editWorkout" />
       <Route notfound page={NotFoundPage} />
     </Router>
   );
